@@ -1,0 +1,18 @@
+# Node.js
+node_modules/
+.env
+uploads/         # Ignore uploaded files if you're storing them temporarily on the server
+coverage/        # Ignore test coverage reports
+*.log            # Ignore log files (e.g., error logs)
+npm-debug.log*   # Ignore npm debug logs
+.DS_Store        # Ignore macOS system files
+
+# React
+build/           # Ignore production build files
+node_modules/
+.env.local       # Local environment variables
+.env.development # Development environment variables
+.env.test        # Test environment variables
+.env.production  # Production environment variables
+.cache           # Ignore any temporary cache
+
